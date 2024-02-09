@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <title>Manuale del Monitor Alimentare</title>
+    <link rel="stylesheet" href="../CSS/page_form.css">
+    <style>
+        header{
+            text-align: center;
+        }
+
+        .logo{
+            height: 4rem;
+            width: 4rem;
+            border-radius: 100%;
+            margin-bottom: -1%;
+        }
+
+        li{
+            font-weight: bold;
+        }
+
+        a{
+            color: white;
+            font-size: 12pt;
+        }
+
+        a:hover {
+            color: blue; 
+        }
+
+        header a{
+            margin-left: 2%;
+        }
+        
+        main{
+            margin-left: 2%;
+            margin-right: 2%;
+            margin-bottom: 2%;
+        }
+
+        p{
+            font-weight: bold;
+        }
+
+        b{
+            font-weight: bolder;
+            color: #FFE066;
+        }
+
+        #introduzione, #registrazione, #descrizione{
+            border-radius: 30px;
+            background-color: #1F2E2E;
+            padding: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="margini"></div>
+    <div id="centro">
+        <header>
+            <img src="../img/logo.png" class = "logo" alt="Logo del Sito">
+            <br>
+            <h1>Manuale d'Uso</h1>
+        </header>       
+        <main>
+            <a href="./mainpage.php">Torna Indietro</a>
+            <h2>Indice</h2>
+            <ul id="index">
+                <li> <a href="#introduzione">Introduzione</a> </li>
+                <li> <a href="#registrazione">Registrazione</a> </li>
+                <li> <a href="#descrizione">Descrizione</a> </li>
+            </ul>
+            <br>
+            <div id = "introduzione">
+                <h2>Introduzione</h2>
+                <p>Benvenuti su <b>Monitor Alimentare</b> - La Vostra Guida Nutrizionale Personale!</p>  
+                <p>Se siete alla ricerca di un modo semplice ed efficace per tenere traccia della vostra alimentazione e della vostra salute in generale, siete nel posto giusto. "Monitor Alimentare" &egrave; il vostro alleato nella ricerca del benessere, offrendovi un'esperienza completa di monitoraggio alimentare.</p> 
+                <p>Con "Monitor Alimentare," potrete:</p>
+                <ul>
+                    <li><b>Tracciare le Calorie Ingerite:</b> Tenere sotto controllo le calorie consumate attraverso il cibo &egrave; fondamentale per una dieta sana. Il nostro servizio vi permette di annotare ogni pasto e snack, fornendovi informazioni chiare sul vostro apporto calorico quotidiano.</li>
+                    <li><b>Monitorare le Calorie Bruciate:</b> Non si tratta solo di quanto si mangia, ma anche di quanto si brucia. Registrate le vostre attivit&agrave; fisiche e scoprite quanto stanno contribuendo al vostro benessere generale.</li>
+                    <li><b>Esplorare Valori Nutrizionali e Macronutrienti:</b> <b>Monitor Alimentare</b> non si limita alle calorie. Forniamo informazioni dettagliate sui valori nutrizionali, inclusi carboidrati, proteine, grassi e altri nutrienti essenziali.</li>
+                    <li><b>Tracking dell'acqua bevuta:</b> L'acqua &egrave; fondamentale per il vostro corpo, e il nostro servizio vi consente di monitorare facilmente quanto ne bevete. Inoltre, potete personalizzare le dimensioni del vostro bicchiere abituale per un monitoraggio preciso.</li>
+                    <li><b>Esplorare una Vasta Gamma di Cibi e Ricette:</b> La variet&agrave; &egrave; la chiave per una dieta equilibrata. Nel nostro database troverete una vasta selezione di cibi e ricette, perfette per esplorare nuovi sapori e mantenerli nel vostro diario alimentare.</li>
+                </ul>
+                <p>Prendetevi cura del vostro corpo e della vostra salute con <b>Monitor Alimentare</b>. Un futuro pi&ugrave; sano e consapevole vi aspetta qui. Siete pronti per iniziare il vostro viaggio verso una vita pi&ugrave; sana?</p>
+            </div>
+            <br><br>
+            <div id = "registrazione">
+                <h2>Registrazione</h2>
+                <p>
+                    La <a href="./register.php">registrazione</a> &egrave; molto semplice, dalla <a href="../index.php">home</a> del sito se si vuole creare un nuovo account ci si dirige nella pagina di registrazione utilizzando l'apposito tasto. Si riempie il modulo a schermo con i propri dati, seguendo le indicazioni presenti nella pagina. <i>La Password deve avere almeno 6 caratteri</i>. 
+                    I dati inseriti devono essere coerenti con la realt&agrave;, poich&eacute; &grave; stato fatto un controllo accurato sui dati inseriti. Inoltre fare attenzione al tipo al livello di attivit&agrave; e al tipo di dieta. Le informazioni a tal riguardo sono spiegare all'interno della sezione adibita alla registrazione. 
+                </p>
+                <br>
+                <p>Il <a href="./login.php">login</a> funziona attraverso l'inserimento della propria E-mail e della propria Password. Una volta inserite le proprie credenziali con successo, si apre la propria Pagina Principale.</p>    
+            </div>
+            <br><br>
+            <div id = "descrizione">
+                <h2>Descrizione</h2>
+                <p>Il servizio si divide in diverse parti che andremo qui di seguito ad illustrare.</p>
+                <br>
+                <h3>Mainpage</h3>
+                <p>Dopo aver effettuato l'accesso sarai accolto dalla Mainpage del sito, un luogo centrale per tenere traccia del tuo diario alimentare e del tuo stile di vita.</p>
+                <p>Subito sotto il tuo messaggio di benvenuto e la data corrente, troverai una barra di progresso che mostra quante calorie hai consumato durante la giornata rispetto al tuo fabbisogno calorico giornaliero. Il fabbisogno calorico &egrave; calcolato quando effettui l'accesso al sito e viene aggiornato in tempo reale in base alle calorie consumate e alle attivit&agrave; registrate.</p>
+                <p>A destra della barra del progresso calorico, c'&egrave; un riquadro che ti consente di selezionare la data a cui fa riferimento la Mainpage. Questa funzionalit&agrave; ti consente di esaminare il tuo diario alimentare e le attivit&agrave; passate o future.</p>
+                <p>Al di sopra della sezione di sezione di gestione, troverai tre barre bianche all'interno di un quadrato grigio. Cliccando su questo quadrato, si aprir&agrave; un menu a tendina che ti dar&agrave; accesso a diverse sezioni importanti:</p>
+                    <ul>
+                        <li>Account: Per modificare o controllare i dati del tuo profilo.</li>
+                        <li>Statistiche: Per visualizzare statistiche dettagliate sulla tua alimentazione e il tuo stile di vita.</li>
+                        <li>Manuale: Questa guida.</li>
+                        <li>Logout: Per effettuare il logout e terminare la sessione.</li>
+                    </ul>
+                <br>
+                <p>Poi ci sono 3 sezioni di gestione:</p>
+                <p>La sezione a sinistra ti permette di inserire i pasti per la colazione, il pranzo, la cena e gli spuntini. Ogni pasto &egrave; rappresentato da una circonferenza che mostra la percentuale di riempimento, indicando quanto hai consumato rispetto al fabbisogno calorico programmato per quel pasto.</p>
+                <p>La sezione centrale contiene un contatore per i bicchieri d'acqua consumati e un indicatore per monitorare e aggiornare il tuo peso corporeo.</p>
+                <p>La sezione a destra &egrave; dedicata alle tue attivit&agrave; quotidiane, tenendo traccia dei passi fatti e delle ore di sonno.</p>
+                <p>Per aggiungere alimenti a ciascun pasto o registrare nuove attivit&agrave;, basta cliccare sulla sezione corrispondente ("Colazione," "Pranzo," "Cena," "Spuntini," o "Attivit&agrave;") e verrai indirizzato alla pagina specifica per inserire i dati.</p>
+                <p>Tutto ci&ograve; &egrave; in base alla data scelta. Perci&ograve; la pagina dedicata all'alimentazione e la pagina dedicata alle attivit&agrave; sar&agrave; quella relativa alla data selezionata e gli eventuali pasti e le eventuali attivit&agrave; inserite saranno considerate relative a quella data.</p>
+                <br>
+                <h3>Alimentazione</h3>
+                <p>Alla pagina per l'alimentazione si arriva tramite il click di "Colazione", "Pranzo", "Cena" o "Spuntini" nella Mainpage. &Egrave; suddivisa in tre parti per semplificare la registrazione dei pasti.</p>
+                <p>C'&egrave; una barra di ricerca a Sinistra. Utilizza la barra di ricerca a sinistra per cercare il cibo che desideri registrare. Mentre digiti, appariranno riquadri contenenti nomi di cibi che corrispondono alle lettere inserite.</p>
+                <p>Cliccando su uno dei riquadri, al centro della pagina apparir&agrave; una schermata dettagliata con informazioni sul cibo, inclusi le calorie, i carboidrati, le proteine, i grassi, le vitamine e i nutrienti presenti. Puoi anche modificare la quantit&agrave; e il metodo di misura del cibo prima di fare click sul pulsante "Inserisci."</p>
+                <p>Nella parte destra, troverai una tabella riepilogativa che elenca tutti gli alimenti inseriti. In questa tabella, hai due opzioni:</p>
+                    <ul>
+                        <li>Cancella: Cliccando su "Cancella," potrai rimuovere gli alimenti dalla tabella con un semplice click sul loro nome. Questo &egrave; utile se hai inserito alimenti in modo errato.</li>
+                        <li>Aggiorna: Utilizzando il pulsante "Aggiorna," puoi modificare le quantit&agrave; di tutti gli alimenti nella tabella e una volta confermate le modifiche, verranno salvate.</li>
+                    </ul>
+                <p>Sotto la tabella dei pasti, troverai un riepilogo delle calorie consumate rispetto al tuo fabbisogno calorico programmato per il pasto selezionato. Nota che gli alimenti aggiunti per un pasto specifico non compariranno nella tabella degli alimenti registrati per altri pasti, a meno che tu non li aggiunga anche l&igrave;.</p>
+                <br>
+                <h3>Attivit&agrave;</h3>
+                <p>Alla pagina per l'alimentazione si arriva tramite il click di "Attivit&agrave;" nella Mainpage. La pagina delle attivit&agrave; &egrave; progettata per una registrazione facile e veloce. &Egrave; suddivisa in tre parti per semplificare la registrazione delle attivit&agrave;.</p>
+                <p>Utilizza la barra di ricerca a sinistra per trovare l'attivit&agrave; che desideri registrare. Mentre digiti, compariranno riquadri con nomi di attivit&agrave; che corrispondono alle lettere inserite.</p>
+                <p>Cliccando su uno dei riquadri, verr&agrave; visualizzata al centro una schermata dettagliata con informazioni sull'attivit&agrave; e potrai modificare quanto hai praticato l'attivit&agrave; in base all'unit&agrave; di misura.</p>
+                <p>Nella parte destra della pagina, troverai un riepilogo delle attivit&agrave; gi&agrave; registrate, tra cui Camminare e Dormire. Puoi anche vedere le attivit&agrave; che hai inserito. Cliccando sul pulsante "Aggiorna" per un'attivit&agrave;, puoi modificare i valori inseriti. Se imposti il valore a 0, l'attivit&agrave; verr&agrave; rimossa.</p>
+                <br>
+                <h3>Account</h3>
+                <p>Puoi accedere alla sezione dell'account dal men&ugrave; a tendina, facilmente accessibile dalla mainpage.</p>
+                <p>Qui troverai tutti i dati inseriti in fase di registrazione, tra cui nome, cognome, sesso, data di nascita, statura, peso, attivit&agrave;, preferenza dietetica e livello di attivit&agrave; fisica quotidiana.</p>
+                <p>Per aggiornare le informazioni, basta cliccare sul pulsante "Modifica". Successivamente, modifica il valore desiderato e conferma le modifiche cliccando su "Conferma".</p>
+                <p>Si può addirittura cambiare la dimensione del proprio bicchiere abituale!</p>
+                <br>
+                <h3>Statistiche</h3>
+                <p>Monitorare il tuo progresso &egrave; fondamentale ed &egrave; proprio a questo che serve la sezione delle statistiche, accessibile attraverso il men&ugrave; a tendina della mainpage.</p>
+                <p>Una volta dentro la pagina saranno mostrate le statistiche giornaliere. Scegli se visualizzarle su base giornaliera, settimanale, mensile o annuale per ottenere una visione completa del tuo percorso alimentare.</p>
+                <p>Con le statistiche giornaliere troverai delle che barre visualizzano carboidrati, grassi e proteine ingeriti in confronto a quelle che avresti dovuto assumere in totale quel giorno. Inoltre, vengono mostrati i dettagli sulle vitamine, i nutrienti e il tuo BMI.</p>
+                <p>Per avere una visione pi&ugrave; ampia del tuo progresso nel tempo, esplora la sezione settimane, mensile o annuale. Gli istogrammi ti mostrano il consumo calorico, di carboidrati, proteine, grassi e di acqua. Inoltre, potrai consultare un elenco delle vitamine e dei nutrienti assunti. Passa il mouse sopra le colonne degli istogrammi per visualizzare i valori specifici rappresentati da ciascuna colonna.</p>
+            </div>
+        </main>
+    </div>
+    <div class="margini"></div>
+</body>
