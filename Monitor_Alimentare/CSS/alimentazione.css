@@ -1,0 +1,215 @@
+body{
+    display: flex;
+    margin: 0%;
+}
+
+.margini{
+    background-color: black; 
+    width: 5%;
+    min-height: 100vh;
+}
+
+#centro{
+    background-image: linear-gradient(#FF4DFF, #800080);
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    min-height: 100vh;
+    color: white;
+}
+
+h1{
+    color: #FFE066;
+    font-family: helvetica, arial, tahoma, verdana;
+    font-size: 28pt;
+}
+
+h2{
+    color: #FFE066;
+    font-family: helvetica, arial, tahoma, verdana;
+    font-size: 24pt;
+}
+
+h3{
+    color: #FFE066;
+    font-family: helvetica, arial, tahoma, verdana;
+    font-size: 18pt;
+}
+
+p{
+    color: white;
+}
+
+#ricerca{
+    width: 33.3%;
+    max-width: 33.3%;
+}
+
+#alimento{
+    width: 33.3%;
+    max-width: 33.3%;
+}
+
+#lista{
+    width: 33.3%;
+    max-width: 33.3%;
+}
+
+#ricerca form{
+    margin-top: 1%;
+    margin-left: 2%;
+}
+
+#ricerca td{
+    background-color: #1F2E2E;
+    height: 2.5rem;
+    width: 18rem;
+    border-radius: 30px;
+    padding: 0.5rem;
+    overflow: hidden;
+    position: relative;
+}
+
+#ricerca input{
+    background-color: transparent;
+    color: white;
+    border: 0;
+    width: 15rem;
+    height: 1.5rem;
+    outline: none;
+}
+
+#ricerca button{
+    background-color: transparent;
+    border-radius: 50%;
+    border: 0;
+    position: absolute;
+    bottom: 25%;
+    right: 5%;
+    outline: none;
+    width: 2rem;
+}
+
+#ricerca img{
+    background-color: transparent;
+    width: 1.25rem;
+    height: 1.25rem;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+#risultati table{
+    margin-left: 2%;
+}
+
+#risultati td{
+    background-color: #1F2E2E;
+    border-radius: 5%;
+    color: white;
+    height: 6rem;
+    width: 16rem;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+#risultati td:hover{
+    color: blue;
+    text-decoration: underline;
+}
+
+#alimento p{
+    color: white;
+}
+
+#alimento table{
+    margin-top: 2%;
+    margin-bottom: 2%;
+    background-color: #1F2E2E;
+    border-radius: 2%;
+    max-width: 90%;
+}
+
+#alimento input{
+    background-color: #1F2E2E;
+    border: 2px solid #FFE066;
+    color: white;
+    padding: 0.3rem;
+    margin-left: 1%;
+    text-align: center;
+    width: 4rem;
+}
+
+#alimento select{
+    background-color: #1F2E2E;
+    border: 2px solid #FFE066;
+    color: white;
+    padding: 0.3rem;
+    margin-left: 1%;
+    width: 8rem;
+}
+
+#alimento button{
+    background-color: #1F2E2E;
+    border: 2px solid #FFE066;
+    color: white;
+    padding: 0.3rem;
+    margin-left: 1%;
+}
+
+#alimento td{
+    max-width: 8rem;
+}
+
+#lista{
+    max-width: 100%;
+}
+
+#lista button{
+    background-color: #1F2E2E;
+    border-color: #FFE066;
+    color: white;
+    padding: 0.3rem;
+    margin-left: 1%;
+} 
+
+#lista a{
+    color: white;
+    font-size: 12pt;
+}
+
+#lista a:hover {
+    color: blue; 
+}
+
+#inseriti{
+    margin-top: 2%;
+}
+
+#inseriti table{
+    background-color: #1F2E2E;
+    border-radius: 2%;
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+
+#inseriti td{
+    border: 2px solid white;
+    color: #FFE066;
+    padding: 0.3rem;
+}
+
+#inseriti td input{
+    background-color: #1F2E2E;
+    border-color: #FFE066;
+    border: 2px solid white;
+    color: white;
+    padding: 0.3rem;
+    margin-left: 1%;
+    text-align: center;
+    width: 4rem;
+}
+
+#conto_calorie{
+    font-weight: bold;
+    color: #FFE066;
+}
